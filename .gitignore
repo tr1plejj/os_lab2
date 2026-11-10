@@ -1,0 +1,42 @@
+/build/
+/build-*/
+/cmake-build-*/
+/.cache/
+/artifacts/
+
+# Локальные настройки редакторов и инструментов.
+/.vscode/
+/.idea/
+/.agents/
+/.codex/
+/.aws/
+
+# Файлы CMake при случайной сборке в корне проекта.
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/Makefile
+/compile_commands.json
+/matrix_demo
+/matrix_tests
+/loop_order_benchmark
+
+# Скомпилированные файлы и виртуальные окружения Python.
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+
+.DS_Store
+Thumbs.db
+
